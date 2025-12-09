@@ -1,47 +1,49 @@
-#  Spark SQL - Création et Manipulation de Tables Hive
+# Spark SQL – Creating and Managing Hive Tables
 
-##  Description
+## Description
 
-Ce notebook a pour objectif d'explorer les fonctionnalités de **Spark SQL** via **PySpark** en manipulant des bases de données et tables Hive. Il a été développé dans un environnement **Google Colab**.
+This notebook explores the features of **Spark SQL** using **PySpark** by creating and manipulating Hive databases and tables.  
+It was developed in a **Google Colab** environment.
 
-Le projet suit plusieurs étapes clés :
-- Montage de Google Drive pour accéder aux données.
-- Initialisation d'une session Spark avec support Hive.
-- Création et sélection d'une base de données.
-- Définition de schémas de tables SQL.
-- Création de tables Hive.
-- Insertion et affichage de données dans les tables.
+The project follows several key steps:
+- Mounting Google Drive to access data
+- Initializing a Spark session with Hive support
+- Creating and selecting a database
+- Defining SQL table schemas
+- Creating Hive tables
+- Inserting and displaying data from tables
 
-##  Technologies
+## Technologies
 
-- Python
-- PySpark
-- Apache Spark
-- Hive
-- Google Colab
+- Python  
+- PySpark  
+- Apache Spark  
+- Hive  
+- Google Colab  
 
-##  Structure du Notebook
+## Notebook Structure
 
-1. **Installation et Configuration**
-   - Installation de PySpark
-   - Montage de Google Drive
-   - Initialisation de SparkSession
+1. **Installation & Setup**
+   - Installing PySpark  
+   - Mounting Google Drive  
+   - Initializing the SparkSession  
 
-2. **Gestion des bases de données**
-   - Création d'une base de données Hive `pearson`
-   - Sélection de la base pour l'usage par défaut
+2. **Database Management**
+   - Creating a Hive database named `pearson`  
+   - Setting the database as the default  
 
-3. **Création de tables Hive**
-   - Table `customer` avec schéma : `(id, firstname, lastname, gender, age)`
-   - Possibilité d'autres tables définies dans la suite du notebook
+3. **Hive Table Creation**
+   - Creating the `customer` table with the schema:  
+     `(id, firstname, lastname, gender, age)`  
+   - Additional tables may be defined later in the notebook  
 
-4. **Manipulations SQL**
-   - Commandes SQL exécutées via `spark.sql()`
-   - Affichage du contenu des bases et tables
+4. **SQL Operations**
+   - Running SQL commands through `spark.sql()`  
+   - Displaying the contents of databases and tables  
 
-##  Auteur
+## Author
 
-**Lina Benzemma** – Exam Spark dans le cadre du Master MOSEF
+**Lina Benzemma**
 
 ---
 
